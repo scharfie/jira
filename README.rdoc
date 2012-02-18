@@ -1,6 +1,28 @@
-= jira
+= jira command line interface
 
-Description goes here.
+== Goal
+
+Specification by example!
+
+=== Viewing:
+
+* jira show CBZ-1441      # => show ticket in terminal
+* jira browse CBZ-1441    # => show ticket in browser
+
+=== Workflow:
+
+* jira start CBZ-1441     # => start progress
+* jira stop CBZ-1441      # => stop progress
+* jira download CBZ-1441  # => download attachments
+* jira resolve CBZ-1441   # => resolve issue as fixed
+
+=== Editing:
+
+* jira comment CBZ-1441 "comments"  # => add comment to ticket
+* jira assign CBZ-1441 --to me   # => assign ticket to me
+* jira assign CBZ-1441 --to USER # => assign ticket to user
+* jira estimate CBZ-1441 --hours 4 # => estimate ticket 
+* jira versions CBZ       # => list fix versions
 
 == Contributing to jira
  
